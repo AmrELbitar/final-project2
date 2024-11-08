@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar .navbar-nav{
+    gap: 30px;
+}
+.navbar,.sec-2,.btn-2{
+    background-color: #37517E !important;
+}
+.navbar-nav a{
+    color:white ;
+}
+ .collapse a:hover{
+    color:#085ef1 ;
+} 
+
+.a-1{
+    color: #085ef1 !important;
+}
+.sec-2{
+    height: 100vh;
+}
+
+/* About us */
+.about-third{
+    margin-bottom: 70px;
+}
+.about-h2 {
+    color:#085ef1;
+    font-weight: bold;
+}
+/* .about-h2::after{
+    content: "";
+    border: 2px red solid;
+    left: 50%;
+    transform: translate(50%);
+    height: 20px;
+    width: 100px;
+} */
+
+
+.about-h2{
+    position: relative;
+}
+.about-h2::after{
+    content: "";
+    width: 150px;
+    height: 3px;
+    color:red;
+    position: absolute;
+    bottom: -20px;
+    left: 45%;
+}
+.about-second{
+    margin-top: 150px;
+}
+.span-about{
+    font-weight:bold;
+    color: #37517E;
+}
+.h2-about{
+    color: #37518E;
+}
+.about-P{
+    color: #8D798E;
+}
+.span-AA{
+    margin-top: -15px;
+    text-align: center;
+}
+
+.p-second{
+margin-bottom: -25px;
+}
+
+.accordion-item a{
+  text-decoration: none;
+}
+.number{
+    color:#085ef1;
+    margin-right: 3px;
+}
+
+
+.ppp{
+    margin: -20px;
+}
+
+/*                Services section          */
+.services{
+    background-color: #F5F6F8;
+}
+
+.h2-sevices{
+    color: #37517E;
+    position: relative;
+}
+ .h2-serices::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    color:red;
+    position: absolute;
+    bottom: -20px;
+    left: 45%;
+}
+ 
+
+
+.p-services{
+    color: #606061;
+    margin-bottom: 50px;
+}
+
+.icon{
+    margin-left:-75%;
+}
+.services-end{
+    background-image: url(../img/cta-bg\ \(1\).jpg);
+    width: 100vh;
+    height: 80vh;
+    background-size: 100% 100%;
+    margin: auto;
+    z-index: 99;
+}
+.overlay{
+    background-color: rgba(3, 28, 71, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.services-end {
+    
+}
+.services-flex{
+
+}
+.flex-leftA{
+    margin-top: 150px;
+}
+.flex-rightB{
+    margin-top: 200px;
+    
+}
+/*              portofolio      */
+
+
+
+.img-text{
+    visibility: hidden;
+}
+
+.img-text:hover{
+    visibility: 2;
+    font-size: 80px;
+    color: red;
+}
